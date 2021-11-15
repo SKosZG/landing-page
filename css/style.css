@@ -6,7 +6,57 @@
     box-sizing: border-box;
 }
 
+/* #container {
+    width: 80vw;
+    margin: 0 auto;
+} */
+
+
 header, footer {
     background-color: #1F2937;
 }
 
+header {
+    height: 400px;
+}
+
+#header-nav {
+    display: flex;
+    width: 70vw;
+    margin: 0 auto;
+    padding: 10px 0px;
+    justify-content: space-between;
+}
+
+#logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+#header-links {
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+    align-items: center;
+}
+
+#header-links li {
+    padding-left: 20px;
+}
+
+#hero {
+    width: 70vw;
+    height: 300px;
+    margin: 0 auto;
+    padding: 10% 0;
+    display: flex;
+    flex-wrap: no-wrap;
+    justify-content: space-between;
+}
+
+#hero-right {
+    height: 100%;
+    width: 100%;
+    background-color: grey;
+}
